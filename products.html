@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="security devices,camera">
+    <meta name="description" content="Berimbolo security">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-dark bg-opacity-100">  
+    <!-- Navbar -->
+    <nav class="pb-5">
+        <div class=" navbar navbar-expand-lg bg-light bg-opacity-50 text-secondary p-3 fixed-top textdanger" id="navbar"
+            data-bs-theme="light" fixed-top>
+            <a href="./index.html" class="navbar-brand mx-5" aria-label="name of company">
+                <h1 class="fw-bolder"><span class="text-danger fw-bolder fs-1">B</span>erimbolo</h1>            
+            </a>
+            <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="menu">
+                <ul class="link navbar-nav m-auto">
+                    <li class="nav-item"><a href="./index.html" class="nav-link active text-dark " aria-label="page">Home</a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link text-dark " aria-label="page">About</a></li>
+                    <li class="nav-item"><a href="./products.html" class="nav-link text-dark " aria-label="page">Products</a></li>
+                    <li class="nav-item"><a href="./services.html" class="nav-link text-dark " aria-label="page">Services</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link text-dark " aria-label="page">Contact</a></li>
+                </ul>
+                <div class="link">
+                    <button class="btn btn-dark" onclick="goToLoginPage1()" aria-label="log in">Log IN</button>
+                    <button class="btn btn-dark" onclick="goToLoginPage2()" aria-label="sign UP">Sign UP</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- section1 -->
+    <button id="top-button" title="Go to top" class="btn btn-outline-danger btn-md rounded-top-pill">Top</button>
+    <div class="container mt-5 pt-2">
+        <h1 class="fw-bolder text-center text-light ">Section 1</h1>
+        <div class="row mt-3 justify-content-between">
+            <div class=" col-lg-4  mt-3">
+                <div class="card  bg-primary bg-opacity-10 text-light">
+                    <img src="./images/n2.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title fw-semibold">product 1</h4>
+                        <hr class="hr2">
+                        <p class="card-text lead">this camera is better and more secure than any other camera in the market also it is very easy to use and it is very
+                        good for home security</p>
+                        <button class="button-a">
+                            <a href="./services.html" class="text-light text-decoration-none" aria-label="product">Chick out</a>
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4  mt-3">
+                <div class="card  bg-primary bg-opacity-10 text-light">
+                    <img src="./images/n5.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title fw-semibold">product 2</h4>
+                        <hr class="hr2">
+                        <p class="card-text lead">this camera is better and more secure than any other camera in the market also it is very easy to use and it is very
+                        good for home security</p>
+                        <button class="button-a">
+                            <a href="./services.html" class="text-light text-decoration-none" aria-label="product">Chick out</a>
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4  mt-3">
+                <div class="card  bg-primary bg-opacity-10 text-light">
+                    <img src="./images/n1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title fw-semibold">Product 3</h4>
+                        <hr class="hr2">
+                        <p class="card-text lead">this camera is better and more secure than any other camera in the market also it is very easy to use and it is very
+                        good for home security</p>
+                        <button class="button-a">
+                            <a href="./services.html" class="text-light text-decoration-none">Chick out</a>
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="fw-bolder text-center text-light mt-5">Section 2</h1>
+        <div class="row mt-5 justify-content-between">
+            <div class=" col-lg-4  mt-3">
+                <div class="card bg-primary bg-opacity-10 text-light">
+                    <img src="./images/n3.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title fw-semibold">Product 4</h4>
+                        <hr class="hr2">
+                        <p class="card-text lead">this camera is better and more secure than any other camera in the market also it is very easy to use and it is very
+                        good for home security</p>
+                        <button class="button-a">
+                            <a href="./services.html" class="text-light text-decoration-none" aria-label="product">Check out</a>
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 mt-3">
+                <div class="card  bg-primary bg-opacity-10 text-light">
+                    <img src="./images/n4.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title fw-semibold">Product 5</h4>
+                        <hr class="hr2">
+                        <p class="card-text lead">this camera is better and more secure than any other camera in the market also it is very easy to use and it is very
+                        good for home security</p>
+                        <button class="button-a">
+                            <a href="./services.html" class="text-light text-decoration-none" aria-label="product">Check out</a>
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 mt-3">
+                <div class="card  bg-primary bg-opacity-10 text-light">
+                    <img src="./images/n6.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title fw-semibold">Product 6</h4>
+                        <hr class="hr2">
+                        <p class="card-text lead">this camera is better and more secure than any other camera in the market also it is very easy to use and it is very
+                        good for home security</p>
+                        <button class="button-a">
+                            <a href="./services.html" class="text-light text-decoration-none" aria-label="product">Check out</a>
+                            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid bg-secondary bg-opacity-25 text-light pt-5 pb-3 mt-5" id="footer">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="fw-bolder bg-gradient"><span class="text-danger fw-bolder fs-1">B</span>erimbolo</h1>
+                <button class="btn btn-outline-danger text-light align-self-center mt-3" data-bs-target="#Contact"
+                    data-bs-toggle="modal">
+                    Contact US
+                </button>
+                <div class="modal fade" id="Contact">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header bg-dark">
+                                <h1 class="">Contact Form</h1>
+                                <button class="btn-close bg-light" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body bg-dark bg-opacity-75">
+                                <form id="contactForm" class="form">
+                                    <div class="container-fluid">
+                                        <div class="row ">
+                                            <div class="col-12 d-flex">
+                                                <input type="text" name="firstName" id="firstName" placeholder="First Name"
+                                                    class="form-control w-50 mx-1" required>
+                                                <input type="text" name="secondName" id="secondName" placeholder="Second Name"
+                                                    class="form-control w-50 mx-1" required>
+                                            </div>
+                                            <div class="col-12 d-flex mt-4">
+                                                <input type="number" name="phoneNumber" id="phoneNumber" placeholder="Your phone Number"
+                                                    class="form-control w-50 mx-1" required>
+                                                <input type="email" name="email" id="email" placeholder="Enter your Email"
+                                                    class="form-control w-50 mx-1" required>
+                                            </div>
+                                            <div class="col-12 d-flex mt-4">
+                                                <label for="reason">Choose Reason</label>
+                                                <select name="reason" id="reason" class="w-50 ms-4" required>
+                                                    <option value="" disabled selected>Select a reason</option>
+                                                    <optgroup label="Head 1">
+                                                        <option value="reason1">Reason 1</option>
+                                                        <option value="reason2">Reason 2</option>
+                                                        <option value="reason3">Reason 3</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 d-flex mt-4">
+                                                <textarea name="description" id="description" cols="80" rows="10" placeholder="Description"
+                                                    required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer bg-dark">
+                                        <button class="text-light btn btn-outline-danger" type="reset">Reset</button>
+                                        <button class="text-light btn btn-outline-danger" type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 d-flex justify-content-around mt-4">
+                <div class="link d-grid m-2 text-center">
+                    <p class="fw-semibold">Email of company :</p>
+                    <p>Berimbolo security@example.com</p>
+                    <div class="d-lg-flex">
+                        <p class="fw-semibold">Phone Number : </p>
+                        <p> 0123456789</p>
+                    </div>
+                </div>
+                <div class="link d-grid m-2 text-center">
+                    <h5>Important links</h5>
+                    <a href="./index.html" class="text-secondary mt-1 active link-offset-2-hover" aria-label="page">Home</a>
+                    <a href="./about.html" class="text-secondary p-1 active link-offset-2-hover" aria-label="page">About</a>
+                    <a href="./services.html" class="text-secondary mt-1 active link-offset-2-hover" aria-label="page">Services</a>
+                    <a href="./products.html" class="text-secondary mt-1 active link-offset-2-hover" aria-label="page">Products</a>
+                    <a href="./contact.html" class="text-secondary m-1 active link-offset-2-hover" aria-label="page">Contact</a>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <p class="text-center ">Copyright &copy; 2024 Berimbolo. All rights reserved.</p>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-2">
+                <a href="https://www.facebook.com" class="text-light" target="_blank" aria-label="social media">
+                    <i class="fa-brands fa-facebook mx-3"></i>
+                </a>
+                <a href="https://www.linkedin.com" class="text-light" target="_blank" aria-label="social media">
+                    <i class="fa-brands fa-linkedin mx-3"></i>
+                </a>
+                <a href="https://www.twitter.com" class="text-light" target="_blank" aria-label="social media">
+                    <i class="fa-brands fa-twitter mx-3"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

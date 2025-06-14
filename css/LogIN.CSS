@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgba(36, 34, 34, 0.555),rgba(0, 0, 0, 0.514));
+}
+.contain{
+    border-radius: 130px 130px 10px 10px;
+    margin-top: 6%;
+    height: fit-content;
+    width: 50%;
+}
+.form{
+    height: 100%;
+    border-radius: 125px 125px 10px 10px;
+}
+.contain{
+    animation:img 20s linear infinite;
+}
+@keyframes img {
+    0% {
+        box-shadow:
+            -5px 5px 10px black,
+            5px 5px 10px blueviolet,
+            5px -5px 10px rgba(255, 255, 0, 0.425),
+            -5px -5px 10px blue,
+            -5px 5px 10px rgb(201, 130, 130),
+            5px 5px 10px rgb(86, 159, 192),
+            5px -5px 10px rgba(93, 194, 118, 0.411),
+            -5px -5px 10px rgb(218, 213, 157);
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.521),rgba(48, 47, 47, 0.562));
+    }
+
+    100% {
+        box-shadow:
+            20px 20px 40px blueviolet,
+            20px -20px 40px rgba(255, 255, 0, 0.425),
+            -20px 20px 40px black,
+            -20px 20px 40px rgb(201, 130, 130),
+            20px -20px 40px rgba(93, 194, 118, 0.411),
+            -20px -20px 40px blue,
+            -20px -20px 40px rgb(218, 213, 157),
+            20px 20px 40px rgb(86, 159, 192);
+            background-image: linear-gradient(to right, rgba(36, 34, 34, 0.555),rgba(0, 0, 0, 0.514));
+
+    }
+}
+
+@media (max-width: 950px) and (min-width: 491px) {
+    .contain {
+        border-radius: 130px 130px 10px 10px;
+        margin-top: 6%;
+        height: fit-content;
+        width: 90%;
+
+        transition: 10s 30ms;
+    }
+
+    .form {
+        height: 100%;
+        border-radius: 125px 125px 10px 10px;
+    }
+}
+
+@media (max-width: 491px) {
+    .contain {
+        border-radius: 130px 130px 10px 10px;
+        margin-top: 6%;
+        height: fit-content;
+        width: 80%;
+        transition: 10s 30ms;
+    }
+
+    .form {
+        height: 100%;
+        border-radius: 125px 125px 10px 10px;
+    }
+}

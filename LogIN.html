@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="security devices,camera">
+    <meta name="description" content="Berimbolo security">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/LogIN.CSS">
+</head>
+<body class="bg-dark bg-opacity-100">
+    <div class="contain container  bg-dark bg-opacity-75  d-grid justify-content-center align-items-center pt-3">
+        <form action="" class="form bg-light bg-opacity-75 p-4 d-grid align-items-center" onsubmit="return validateForm()">
+            <div class="row">
+                <h1 class="text-center">Log IN</h1>
+                <div class="col-12">
+                    <label for="email" class="form-label">Enter your email</label>
+                    <input type="email" class="form-control " id="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="password" class="form-label">Enter your password</label>
+                    <input type="password" class="form-control " id="password" required>
+                </div>
+                <div class="col-12 d-grid justify-content-center mt-4">
+                    <button type="submit" class="btn btn-outline-dark btn-lg">Log IN</button>
+                </div>
+                <div class="col-12 text-center mt-4">
+                    <p>Do you not have an account? <span><a href="./signUP.html" class="text-decoration-none text-danger">Sign UP</a></span></p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        function validateForm() {
+                const email = document.getElementById('email').value;
+                const password = document.getElementById('password').value;
+
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailPattern.test(email)) {
+                    alert('Please enter a valid email address.');
+                    return false; 
+                }
+
+                if (password.trim() === '') {
+                    alert('Please enter your password.');
+                    return false; 
+                }
+
+                window.location.href = 'index.html';
+                return false;
+            }
+    </script>
+</body>
+</html>
